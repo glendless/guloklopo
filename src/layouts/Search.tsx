@@ -75,7 +75,7 @@ const Search = ({ searchList }: Props) => {
             <div className="flex flex-nowrap">
               <input
                 className="form-input rounded-r-none"
-                placeholder="Search posts"
+                placeholder="cari sesuatu"
                 type="search"
                 name="search"
                 value={inputVal}
@@ -109,12 +109,12 @@ const Search = ({ searchList }: Props) => {
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">
-                {inputVal.length < 1 ? "Search Post Here" : "No Search Found!"}
+                {inputVal.length < 1 ? "Cari Disini" : "Tidak Ditemukan!"}
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Search for posts by title, category, or tag."
-                  : "We couldn't find what you searched for. Try searching again."}
+                  ? "Cari postingan berdasarkan judul, kategori atau tag."
+                  : "Tidak menemukan apa yang kamu cari. Silahkan cari kembali."}
               </p>
             </div>
           ) : (

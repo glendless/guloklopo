@@ -16,6 +16,7 @@ const { title, description, meta_title, image } = entry.data;
   image={image}
 >
   <PageHeader title={title} />
+
   <section class="section-sm">
     <div class="container">
       <div class="row">
@@ -23,37 +24,62 @@ const { title, description, meta_title, image } = entry.data;
           <form action={contact_form_action} method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
+                Nama Lengkap <span class="text-red-500">*</span>
               </label>
               <input
                 id="name"
                 class="form-input"
-                placeholder="John Doe"
+                placeholder="Valerie"
                 type="text"
               />
             </div>
+
             <div class="mb-6">
               <label for="mail" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
+                Email <span class="text-red-500">*</span>
               </label>
               <input
                 id="mail"
                 class="form-input"
-                placeholder="john.doe@email.com"
+                placeholder="vale@email.com"
                 type="email"
               />
             </div>
+
+            <div class="mb-6">
+              <label for="phonenumber" class="form-label">
+                No Handphone <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="phonenumber"
+                class="form-input"
+                placeholder="08xx-xxxx-xxxx"
+                type="text"
+              />
+            </div>
+
             <div class="mb-6">
               <label for="message" class="form-label">
-                Anything else? <span class="text-red-500">*</span>
+                Tulis Pesan <span class="text-red-500">*</span>
               </label>
               <textarea
                 class="form-input"
-                placeholder="Message goes here..."
+                placeholder="Sampaikan pesanmu..."
                 id="message"
                 rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <div class="mb-6">
+              <label for="file-attachment" class="form-label">
+                Unggah Identitas Diri <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="file"
+                class="block w-full text-sm text-slate-500 file:mr-4 file:border-0 file:bg-gray-100 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-inherit hover:file:bg-lime-400"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
         </div>
       </div>

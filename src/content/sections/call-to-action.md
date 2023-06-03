@@ -1,10 +1,9 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+title: "Mau Ngekost Nyaman Yang Ramah Lingkungan?"
+image: "/images/garden-1.jpg"
+description: "Kamu bisa menikmati hidup modern di tengah lingkungan yang tenang dan asri."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
----
+  label: "Hubungi Kami"
+  link: "/contact"
