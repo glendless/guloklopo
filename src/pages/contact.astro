@@ -21,7 +21,7 @@ const { title, description, meta_title, image } = entry.data;
     <div class="container">
       <div class="row">
         <div class="mx-auto md:col-10 lg:col-6">
-          <form action={contact_form_action} method="POST" data-netlify="true">
+          <form name="submit-to-google-sheet" action={contact_form_action} method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
                 Nama Lengkap <span class="text-red-500">*</span>
@@ -31,6 +31,7 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="Valerie"
                 type="text"
+                name="name"
               />
             </div>
 
@@ -43,6 +44,7 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="vale@email.com"
                 type="email"
+                name="mail"
               />
             </div>
 
@@ -55,6 +57,7 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="08xx-xxxx-xxxx"
                 type="text"
+                name="phonenumber"
               />
             </div>
 
@@ -66,16 +69,17 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="Sampaikan pesanmu..."
                 id="message"
-                rows="8"></textarea>
+                rows="8" name="message"></textarea>
             </div>
 
             <div class="mb-6">
-              <label for="file-attachment" class="form-label">
+              <label for="attachment" class="form-label">
                 Unggah Identitas Diri <span class="text-red-500">*</span>
               </label>
               <input
                 type="file"
                 class="block w-full text-sm text-slate-500 file:mr-4 file:border-0 file:bg-gray-100 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-inherit hover:file:bg-lime-400"
+                name="attachment"
               />
             </div>
 
@@ -84,5 +88,18 @@ const { title, description, meta_title, image } = entry.data;
         </div>
       </div>
     </div>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxynPV_RXByjYss5f454S7L6CqEOl8TWDC1nPQ0051BhB7_5PJnjAZuWHn5dGsjjhmG/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
   </section>
 </Base>
