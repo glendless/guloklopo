@@ -21,8 +21,12 @@ const { title, description, meta_title, image } = entry.data;
     <div class="container">
       <div class="row">
         <div class="mx-auto md:col-10 lg:col-6">
+<<<<<<< HEAD
           <form name="contact-form" action={contact_form_action} method="POST">
             
+=======
+          <form name="submit-to-google-sheet" action={contact_form_action} method="POST">
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
             <div class="mb-6">
               <label for="name" class="form-label">
                 Nama Lengkap <span class="text-red-500">*</span>
@@ -33,8 +37,11 @@ const { title, description, meta_title, image } = entry.data;
                 placeholder="Valerie"
                 type="text"
                 name="name"
+<<<<<<< HEAD
                 required
                 title="Masukan Nama"
+=======
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
               />
             </div>
 
@@ -47,13 +54,18 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="vale@email.com"
                 type="email"
+<<<<<<< HEAD
                 name="email"
                 required
                 title="Masukan Email"
+=======
+                name="mail"
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
               />
             </div>
 
             <div class="mb-6">
+<<<<<<< HEAD
               <label for="phone" class="form-label">
                 No Handphone <span class="text-red-500">*</span>
               </label>
@@ -65,10 +77,22 @@ const { title, description, meta_title, image } = entry.data;
                 name="phone"
                 required
                 title="Masuk No Handphone"
+=======
+              <label for="phonenumber" class="form-label">
+                No Handphone <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="phonenumber"
+                class="form-input"
+                placeholder="08xx-xxxx-xxxx"
+                type="text"
+                name="phonenumber"
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
               />
             </div>
 
             <div class="mb-6">
+<<<<<<< HEAD
               <label for="file" class="form-label">
                 Unggah Identitas Diri <span class="text-red-500">*</span>
               </label>
@@ -80,6 +104,26 @@ const { title, description, meta_title, image } = entry.data;
                 name="file"
                 required
                 title="Masukan Identitas Diri"
+=======
+              <label for="message" class="form-label">
+                Tulis Pesan <span class="text-red-500">*</span>
+              </label>
+              <textarea
+                class="form-input"
+                placeholder="Sampaikan pesanmu..."
+                id="message"
+                rows="8" name="message"></textarea>
+            </div>
+
+            <div class="mb-6">
+              <label for="attachment" class="form-label">
+                Unggah Identitas Diri <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="file"
+                class="block w-full text-sm text-slate-500 file:mr-4 file:border-0 file:bg-gray-100 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-inherit hover:file:bg-lime-400"
+                name="attachment"
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
               />
             </div>
 
@@ -88,5 +132,21 @@ const { title, description, meta_title, image } = entry.data;
         </div>
       </div>
     </div>
+<<<<<<< HEAD
+=======
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxynPV_RXByjYss5f454S7L6CqEOl8TWDC1nPQ0051BhB7_5PJnjAZuWHn5dGsjjhmG/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+>>>>>>> 34ebec94bb322ab1b8e4f9e4466e32c7b52cb18b
   </section>
 </Base>
