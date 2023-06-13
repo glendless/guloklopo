@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "GuloKlopo",
-    "base_url": "https://astroplate.netlify.app",
+    "base_url": "https://guloklopo.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/icon-gulo.png",
@@ -30,7 +30,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Hubungi Kami",
-    "link": "/contact"
+    "link": "https://wa.me/625156390901"
   },
 
   "disqus": {

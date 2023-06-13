@@ -11,7 +11,9 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  // site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  output: "server",
+  site: config.site.base_url ? config.site.base_url : "http://astroplate.netlify.app",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [

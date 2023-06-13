@@ -3,16 +3,16 @@
 banner:
   title: "Ngekost Nyaman Serasa Staycation"
   content: "**Guloklopo** adalah hunian kost nyaman yang ramah untuk milenial. Disini kamu bisa merasakan suasana liburan dengan fasilitas serta sarana yang bikin kamu betah."
-  image: "/images/banner-gradient-test.jpg"
+  image: "/images/homebanner.webp"
   button:
     enable: true
     label: "Hubungi Kami"
-    link: "/contact"
+    link: "https://wa.me/625156390901"
 
 # Features
 features:
-  - title: "Fasilitas Lengkap Yang Dapat Kamu Gunakan"
-    image: "/images/kamar-1.png"
+  - title: "Fasilitas Yang Dapat Kamu Gunakan"
+    image: "/images/kamar-1.webp"
     content: "**GuloKlopo** menyediakan fasilitas guna menunjang kenyamanan dan keamanan untuk para penyewa."
     bulletpoints:
       - "Air Conditioner"
@@ -26,7 +26,7 @@ features:
       link: "#"
 
   - title: "Kostan Ramah Lingkungan Bikin Kamu Healing Terus"
-    image: "/images/swimtes.jpg"
+    image: "/images/swimtes.webp"
     content: "Dengan arsitektur modern, **GuloKlopo** menawarkan sarana untuk memperhatikan kenyamanan kamu."
     bulletpoints:
       - "Kolam Renang"
@@ -40,7 +40,7 @@ features:
       link: "/"
 
   - title: "Memilih Kostan Dengan Fitur Keamanan"
-    image: "/images/cctv-1.png"
+    image: "/images/cctv-1.webp"
     content: "Mengadopsi teknologi dalam fitur keamanan yang terhubung dengan pusat pemantauan."
     bulletpoints:
       - "CCTV 24/7"

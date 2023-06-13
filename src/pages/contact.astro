@@ -21,7 +21,8 @@ const { title, description, meta_title, image } = entry.data;
     <div class="container">
       <div class="row">
         <div class="mx-auto md:col-10 lg:col-6">
-          <form action={contact_form_action} method="POST">
+          <form name="contact-form" action={contact_form_action} method="POST">
+            
             <div class="mb-6">
               <label for="name" class="form-label">
                 Nama Lengkap <span class="text-red-500">*</span>
@@ -31,6 +32,9 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="Valerie"
                 type="text"
+                name="name"
+                required
+                title="Masukan Nama"
               />
             </div>
 
@@ -43,39 +47,39 @@ const { title, description, meta_title, image } = entry.data;
                 class="form-input"
                 placeholder="vale@email.com"
                 type="email"
+                name="email"
+                required
+                title="Masukan Email"
               />
             </div>
 
             <div class="mb-6">
-              <label for="phonenumber" class="form-label">
+              <label for="phone" class="form-label">
                 No Handphone <span class="text-red-500">*</span>
               </label>
               <input
-                id="phonenumber"
+                id="phone"
                 class="form-input"
                 placeholder="08xx-xxxx-xxxx"
                 type="text"
+                name="phone"
+                required
+                title="Masuk No Handphone"
               />
             </div>
 
             <div class="mb-6">
-              <label for="message" class="form-label">
-                Tulis Pesan <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                class="form-input"
-                placeholder="Sampaikan pesanmu..."
-                id="message"
-                rows="8"></textarea>
-            </div>
-
-            <div class="mb-6">
-              <label for="file-attachment" class="form-label">
+              <label for="file" class="form-label">
                 Unggah Identitas Diri <span class="text-red-500">*</span>
               </label>
+
               <input
                 type="file"
+                id="file"
                 class="block w-full text-sm text-slate-500 file:mr-4 file:border-0 file:bg-gray-100 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-inherit hover:file:bg-lime-400"
+                name="file"
+                required
+                title="Masukan Identitas Diri"
               />
             </div>
 

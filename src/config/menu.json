@@ -6,13 +6,11 @@
       "url": "/"
     },
     {
-      "name": "Tentang Kami",
+      "name": "Tentang Guloklopo",
       "url": "/about"
-    },
-    {
-      "name": "Blog",
-      "url": "/blog"
     }
+
+   
     
   ],
   "footer": [
