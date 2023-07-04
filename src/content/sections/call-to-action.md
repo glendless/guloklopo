@@ -5,5 +5,5 @@ image: "/images/cta.webp"
 description: "Kamu bisa menikmati hidup modern di tengah lingkungan yang tenang dan asri."
 button:
   enable: true
-  label: "Hubungi Kami"
+  label: "Daftar"
   link: "https://bit.ly/guloklopo"

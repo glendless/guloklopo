@@ -2,10 +2,10 @@
 # Banner
 banner:
   title: "Ngekost Nyaman Serasa Staycation"
-  content: "**Guloklopo** adalah hunian kost nyaman yang ramah untuk milenial. Disini kamu bisa merasakan suasana liburan dengan fasilitas serta sarana yang bikin kamu betah."
+  content: "**Guloklopo** adalah hunian kost nyaman yang ramah untuk milenial. Disini kamu tinggal dengan fasilitas serta sarana yang bikin kamu betah."
   image: "/images/homebanner.webp"
   button:
-    enable: true
+    enable: false
     label: "Hubungi Kami"
     link: "https://wa.me/625156390901"
 

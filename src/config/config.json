@@ -4,9 +4,9 @@
     "base_url": "https://guloklopo.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/icon-gulo.png",
-    "logo": "/images/GuloKlopo-green.png",
-    "logo_darkmode": "/images/GuloKlopo-darkmode.png",
+    "favicon": "/images/gulo-icon-dark.png",
+    "logo": "/images/GuloKlopo.png",
+    "logo_darkmode": "/images/GuloKlopo.png",
     "logo_width": "150",
     "logo_height": "30",
     "logo_text": "GuloKlopo"
@@ -15,7 +15,7 @@
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,

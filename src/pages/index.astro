@@ -29,7 +29,7 @@ const { banner, features }: Homepage = homepage.data;
   <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
-        <div class="mb-16 text-center lg:col-7">
+        <div class="mb-16 text-center text-dark lg:col-7">
           <h1 set:html={markdownify(banner.title)} class="mb-4" />
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
@@ -62,7 +62,7 @@ const { banner, features }: Homepage = homepage.data;
     features.map((feature, index: number) => (
       <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
         <div class="container">
-          <div class="row items-center justify-between">
+          <div class="row items-center text-dark justify-between">
             <div
               class={`mb:md-0 mb-6 md:col-5 ${index % 2 !== 0 && "md:order-2"}`}
             >

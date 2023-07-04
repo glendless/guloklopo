@@ -5,23 +5,24 @@ description: ""
 
 # Testimonials
 testimonials:
-  - name: "Supardi"
-    designation: "Pak RT"
+  - name: "Linda"
+    designation: "Warga"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Sebagai warga sekitar, saya sangat terkesan dengan kostan asri ini. Lingkungan sekitarnya begitu hijau dengan taman yang indah dan pepohonan rindang. Udara segar dan suasana yang tenang membuat saya merasa seperti tinggal di sebuah resor."
 
   - name: "Ustad Yanuar"
     designation: "Tokoh Masyarakat"
     avatar: "/images/avatar-ustad.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Saya sangat mengapresiasi kehadiran kostan asri ini di sekitar lingkungan kami. Selain memberikan pemandangan yang indah, kostan ini juga membantu menyegarkan udara di sekitar kami. Saya sering melihat warga kost yang berolahraga di taman dan menjaga kebersihan sekitar."
 
-  - name: "Mang Jajang"
-    designation: "Abang Warkop"
+  - name: "Maya"
+    designation: "Penghuni Kost"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Sebagai seorang mahasiswa, kostan asri ini adalah tempat yang sempurna bagi saya untuk tinggal. Saya benar-benar merasa seperti berlibur setiap kali pulang ke kostan. Suasana yang tenang dan hijau membuat saya rileks dan bisa fokus pada belajar."
 
-  - name: "Burhan"
-    designation: "Keamanan"
+  - name: "Tya"
+    designation: "Penghuni Kost"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Saya telah tinggal di sekitar kostan asri ini selama beberapa tahun dan saya sangat senang dengan kehadirannya. Lingkungan sekitar yang asri dan hijau memberikan suasana yang sejuk dan menenangkan."
+    
 ---

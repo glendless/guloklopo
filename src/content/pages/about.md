@@ -1,8 +1,8 @@
 ---
 title: "Tentang GuloKlopo"
 meta_title: "About"
-description: "this is meta description"
-image: "/images/icon-gulo.png"
+description: "tentang guloklopo"
+image: "/images/gulo-icon-dark.png"
 draft: false
 ---
 
