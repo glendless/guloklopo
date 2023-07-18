@@ -11,7 +11,7 @@
 }
 
 .btn-dark {
-  @apply border-dark bg-dark text-theme-light no-underline dark:border-darkmode-primary dark:bg-white dark:text-dark;
+  @apply border-dark bg-dark text-theme-light no-underline dark:border-dark dark:bg-dark dark:text-theme-light;
 }
 
 .btn-white {
