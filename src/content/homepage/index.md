@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Ngekost Nyaman Serasa Staycation"
+  title: "Ngekost Nyaman di Pusat Kota Semarang"
   content: "**Guloklopo** adalah hunian kost nyaman yang ramah untuk milenial. Disini kamu tinggal dengan fasilitas serta sarana yang bikin kamu betah."
   image: "/images/homebanner.webp"
   button:
