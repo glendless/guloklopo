@@ -26,7 +26,7 @@ features:
       link: "#"
 
   - title: "Kostan Ramah Lingkungan Bikin Kamu Healing Terus"
-    image: "/images/swimtes.webp"
+    image: "/images/kolamrenang-1.webp"
     content: "Dengan arsitektur modern, **GuloKlopo** menawarkan sarana untuk memperhatikan kenyamanan kamu."
     bulletpoints:
       - "Kolam Renang"
