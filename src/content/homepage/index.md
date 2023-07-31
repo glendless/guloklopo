@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Fasilitas Yang Dapat Kamu Gunakan"
-    image: "/images/kamar-1.webp"
+    image: "/images/kamar.webp"
     content: "**GuloKlopo** menyediakan fasilitas guna menunjang kenyamanan dan keamanan untuk para penyewa."
     bulletpoints:
       - "Air Conditioner"
