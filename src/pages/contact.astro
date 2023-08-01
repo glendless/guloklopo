@@ -27,33 +27,91 @@ const { title, description, meta_title, image } = entry.data;
               </label>
               <input
                 id="name"
-                class="form-input"
-                placeholder="Valerie"
+                class="form-input rounded"
+                placeholder="Freya Pertiwi"
                 type="text"
               />
             </div>
-            <div class="mb-6">
+
+            <!-- <div class="mb-6">
               <label for="mail" class="form-label">
                 Email <span class="text-red-500">*</span>
               </label>
               <input
                 id="mail"
-                class="form-input"
-                placeholder="valerie@email.com"
+                class="form-input rounded"
+                placeholder="freya@email.com"
                 type="email"
               />
-            </div>
+            </div> -->
+
             <div class="mb-6">
+              <label for="phone" class="form-label">
+                No Handphone <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="phone"
+                class="form-input rounded"
+                placeholder="08xx-xxxx-xxxx"
+                type="phone"
+              />
+            </div>
+
+            <!-- <div class="mb-6">
               <label for="message" class="form-label">
                 Anything else? <span class="text-red-500">*</span>
               </label>
               <textarea
-                class="form-input"
+                class="form-input rounded"
                 placeholder="Sampaikan pesanmu..."
                 id="message"
                 rows="8"></textarea>
+            </div> -->
+
+            <div class="mb-6">
+              <label for="idcard" class="form-label"
+                >Identitas Diri
+                <span class="text-red-500">*</span>
+              </label>
+              <div
+                class="mt-2 flex justify-center bg-white rounded border border-dashed border-theme-light px-6 py-10"
+              >
+                <div class="text-center">
+                  <svg
+                    class="mx-auto h-12 w-12 text-theme-light"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  <div class="mt-4 text-sm leading-6 text-center text-dark">
+                    <label
+                      for="file-upload"
+                      class="relative cursor-pointer rounded-md font-semibold text-dark focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-theme-light"
+                    >
+                      <p class="mr-auto">Unggah KTP</p>
+                      <input
+                        id="file-upload"
+                        name="file-upload"
+                        type="file"
+                        class="sr-only"
+                      />
+                    </label>
+                  </div>
+                  <p class="text-xs leading-5 text-dark">PNG, JPG up to 3MB</p>
+                </div>
+              </div>
+
+              <br />
+              <div class="flex flex-wrap justify-center items-center">
+                <button type="submit" class="btn btn-dark">Kirim</button>
+              </div>
+
             </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
         </div>
       </div>
